@@ -66,7 +66,7 @@ p {
     padding: 120px 0;
 }
 
-.bg-section{
+.bg-section {
     background: var(--neutral-n5);
 }
 
@@ -78,11 +78,15 @@ p {
     padding-bottom: 32px;
 }
 
-.heading.flex-heading .title {
+.heading .title {
     font-weight: 600;
     font-size: 44px;
     line-height: 52px;
     color: var(--neutral-n2);
+}
+
+.mb-48 {
+    margin-bottom: 48px;
 }
 
 /* menu start */
@@ -275,7 +279,7 @@ p {
     color: var(--neutral-n6);
 }
 
-.hero-footer .list-content .single-state p{
+.hero-footer .list-content .single-state p {
     color: var(--neutral-n4);
 }
 
@@ -283,6 +287,10 @@ p {
 
 
 /* listing section start */
+.listing-items .single-item {
+    margin-bottom: 40px;
+}
+
 .listing-items .single-item .image {
     position: relative;
     margin-bottom: 20px;
@@ -354,3 +362,26 @@ p {
 }
 
 /* services seftion end */
+
+/* why choice section start */
+.why-choice .heading p {
+    margin-top: 18px;
+}
+
+.why-choice .heading {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--neutral-n4);
+    margin-bottom: 48px;
+}
+
+.why-choice .features .feature .icon {
+    margin-bottom: 16px;
+}
+
+.why-choice .features .feature h3 {
+    font-size: 20px;
+    color: var(--neutral-n2);
+    font-weight: 500;
+}
+
+/* why choice section end */
