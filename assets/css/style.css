@@ -89,6 +89,15 @@ p {
     margin-bottom: 48px;
 }
 
+.bg-primary {
+    background-color: var(--primary-color) !important;
+    color: var(--neutral-n6);
+}
+
+.bg-primary p {
+    color: var(--neutral-n6);
+}
+
 /* menu start */
 .main-menu {
     position: absolute;
@@ -385,3 +394,141 @@ p {
 }
 
 /* why choice section end */
+
+/* testimonial section start */
+.testimonials .heading {
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--neutral-n4);
+    margin-bottom: 60px;
+}
+
+.testimonials .bg-image .image {
+    position: relative;
+}
+
+.testimonials .bg-image .image img {
+    width: 100%;
+}
+
+.testimonials .bg-image .image .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--neutral-n6);
+    padding: 32px;
+}
+
+.testimonials .bg-image .image .text p {
+    color: var(--neutral-n6);
+    font-size: 18px;
+}
+
+.testimonials .bg-image .image .text .sub-heading {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.testimonials .bg-image .image .play-btn {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}
+
+
+.testimonials .bg-image .image .play-btn a {
+
+    width: 70px;
+    height: 70px;
+    background: #ffffff48;
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    border: 1px solid #ffffff48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s linear;
+}
+
+.testimonials .bg-image .image .play-btn a:hover {
+    backdrop-filter: blur(0px);
+}
+
+.testimonials .bg-image .image .play-btn a i {
+    color: var(--primary-color);
+}
+
+
+.testimonials .testimonial-card {
+    padding: 32px;
+    border-radius: 24px;
+    background: var(--neutral-n5);
+    height: 100%;
+}
+
+.testimonials .testimonial-card .card-area {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonials .testimonial-card .sub-title {
+    color: var(--neutral-n2);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.testimonials .testimonial-card .percentage {
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.testimonials .testimonial-card .percentage span {
+    font-size: 44px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.testimonials .testimonial-card .review {
+    font-size: 20px;
+    color: var(--neutral-n2);
+    margin-bottom: 24px;
+}
+
+
+.testimonials .testimonial-card .image img {
+    width: 100%;
+}
+
+
+.testimonials .testimonial-card .review-part p,
+.testimonials .testimonial-card .review-footer p {
+    color: var(--neutral-n3);
+    font-size: 20px;
+}
+
+.testimonials .testimonial-card .review-part h3 {
+    font-size: 32px;
+    color: var(--neutral-n2);
+    font-weight: 500;
+}
+
+.testimonials .testimonial-card .review-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonials .testimonial-card .review-footer .starts i{
+    color: var(--primary-color);
+}
+
+/* testimonial section end */
